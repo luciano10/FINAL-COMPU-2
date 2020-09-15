@@ -1,0 +1,282 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto',sans-serif;  
+}
+
+header{
+  position:fixed;
+  width: 100%;
+  z-index: 1;
+}
+.titulo{
+  color: #ffffff;
+  margin-top: 100px;
+  padding-bottom:7px;
+}
+.navbar-inverse {
+  border: none;
+  background: #34495E;
+}
+.navbar-inverse .navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  line-height: 50px;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav {
+  margin-top: 20px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 4px;
+  color: #bdc3c7;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: white;
+    background:#2C3E50;
+}
+ .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color:white;
+    background:#2C3E50;
+    }  
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-top: 0;
+}
+.about{
+  background-color: #34495E;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.red{
+  background-color: #E84C3D;
+  color: #ffffff;
+}
+.red:hover{
+  background-color:#ffffff;
+  color: #E84C3D;
+  border:1px solid #E84C3D;
+}
+.icon-flecha{
+  color: #ffffff;
+  margin-right: 5px;
+}
+.en .linea{
+  display:inline-block;
+}
+.final{
+  color: #ffffff;
+  background:#2C3E50;
+  padding-top: 35px;
+  padding-bottom: 37px;
+}
+/*Utilities Dariana*/
+.mt-5{
+  margin-top: 3%;
+}
+.mt-10{
+  margin-top: 9%;
+}
+li{
+  list-style: none;
+}
+/*---About Us---*/
+.header-about h1{
+  margin-top: 0;
+}
+.header-about{
+  background: #2ECC71;
+  padding: 3% 0;
+  color: white;
+}
+.header-about li a{
+  text-decoration: none;
+  color: white;
+  }
+.header-about .pull-right li{
+  display: inline-block;
+  margin-top: 49px;
+  color: rgba(255,255,255,0.7);
+}
+.header-about ul li+li:before{
+    padding: 0 5px;
+    color: #ccc;
+    content: "/";
+  }
+.text-about{
+  padding: 5% 0;
+  color: #34495E;
+}
+  /*barras*/
+.progress{
+    background: white;
+    height: 30px;
+    box-shadow: none;
+    line-height: 30px;
+}
+.text-prin{
+  margin-bottom: 5%;
+}
+.text-item{
+  padding-top: 5%;
+}
+.text-item img{
+  width: 70%;
+  border-radius: 100px;
+  border: 5px solid white;
+}
+.btn-social{
+  border: 0;
+  border-radius: 100%;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  padding: 0;
+  color: white;
+}
+.text-item .col-md-3 a:hover {
+  color: white;
+  background: rgba(79, 125, 212, 0.68);
+}
+.btn-facebook:hover{
+  color: white;
+  background: rgba(79, 125, 212, 0.68);
+}
+.btn-facebook{
+  background: #4F7DD4;
+}
+.btn-google{
+  background: #DC422B;
+}
+.btn-twitter{
+  background: #5BCEFF;
+}
+.btn-in{
+  background: #21A6D8;
+}
+/*---Services---*/
+body{
+  padding-top: 80px;
+  background: #F5F5F5;
+}
+.header-services h1{
+  margin-top: 0;
+}
+.header-services{
+  background: #2ECC71;
+  padding: 3% 0;
+  color: white;
+  font-weight: 300;
+}
+.header-services li a{
+  text-decoration: none;
+  color: white;
+  }
+.header-services .pull-right li{
+  display: inline-block;
+  margin-top: 49px;
+}
+.header-services ul li+li:before{
+    padding: 0 5px;
+    color: #ccc;
+    content: "/";
+}
+.services {
+  color: #34495E;
+  padding: 5% ;
+}
+.services i{
+  display: block;
+  font-size: 4em;
+}
+hr{
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #fff;
+}
+.text2{
+  padding-bottom: 4%;
+}
+.circle2{
+  background: grey;
+  padding:12px 15px 12px 15px;
+  border-radius:50px;
+  width: 70px;
+  margin-bottom: 80px;
+  position:relative;
+  top: 5px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+
+/*---Portafolio---*/
+
+body{
+  padding-top: 80px;
+  background: #F5F5F5;
+}
+.portafolio h1{
+  margin-top: 0;
+}
+.portafolio{
+  background: #2ECC71;
+  padding: 3% 0;
+  color: white;
+}
+.portafolio li a{
+  text-decoration: none;
+  color: white;
+  }
+.portafolio .pull-right li{
+  display: inline-block;
+  margin-top: 49px;
+  color: rgba(255,255,255,0.7);
+}
+.portafolio ul li+li:before{
+    padding: 0 5px;
+    color: #ccc;
+    content: "/";
+  }
+  .portafolio-item{
+    padding: 5% 0;
+  }
+  .portafolio-item .item{
+    background: white;
+    border: 1px solid #EEEEEE;
+    
+    margin: 2%;
+  } 
+  .item img{
+    width: 100%;
+    padding: 4%;
+  } 
+  .item p{
+  color: #2E4052;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 4% 4%;
+   overflow:hidden; /* Escondemos la parte sobrante */
+            white-space:nowrap; /* Indicamos que no realice salto de linea si no cabe en la anchura indicada */
+            text-overflow: ellipsis; /* Ponemos los dos puntos */
+  }  
+  /*--FIN--*/  
